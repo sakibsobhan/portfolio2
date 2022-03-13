@@ -1,0 +1,29 @@
+@media (min-width:320px) and (max-width:575px){
+    nav button{
+        color: white !important;
+    }
+    nav .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    #banner-part {
+        padding: 30px 0;
+    }
+    #banner-part .left h1 {
+        font-size: 40px;
+    }
+    #about-part .right {
+        margin-left: 0px;
+    }
+
+
+    footer .icon {
+        text-align: center;
+    }
+    footer .bottom .left p {
+        font-size: 10px;
+    }
+    footer .bottom .right a {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+}

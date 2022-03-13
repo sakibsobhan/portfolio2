@@ -1,0 +1,1300 @@
+/* ====|common css start|==== */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* ====|common css end|==== */
+
+
+
+/* ====|nav part start|==== */
+nav {
+    background: #28293E;
+}
+
+nav ul li {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0 55px;
+    line-height: 46px;
+}
+
+nav ul li a {
+    color: #ffff !important;
+    transition: .4s !important;
+}
+nav ul li a:hover{
+    color: rgb(182, 182, 182) !important;
+}
+
+nav .btn {
+    margin-top: 5px;
+}
+
+nav .btn a {
+    font-family: 'Epilogue';
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.301);
+    border-radius: 6px;
+    transition: .4s;
+}
+
+nav .btn a:hover {
+    background: #ffffff;
+    color: #28293E;
+    border: 1px solid rgb(255, 252, 252);
+
+}
+
+/* ====|nav part end|==== */
+
+
+
+/* ====|banner part start|==== */
+#banner-part {
+    background: #28293E;
+    padding: 200px 0;
+}
+
+#banner-part .left h5 {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+#banner-part .left h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    letter-spacing: -2px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+#banner-part .left p {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.64);
+    margin-bottom: 60px;
+    max-width: 500px;
+}
+
+#banner-part .left .btn {
+    padding: 0 !important;
+}
+
+#banner-part .left .btn a {
+    font-family: 'Epilogue';
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #EF6D58;
+    padding: 20px 30px;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+#banner-part .left .btn a:hover {
+    background: #FFFFFF;
+    color: #EF6D58;
+}
+
+/* ====|banner part end|==== */
+
+
+
+/* ====|service part start|==== */
+#service-part {
+    background: #FDF0E9;
+    ;
+    padding: 100px 0;
+}
+
+#service-part .title h5 {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-bottom: 30px;
+}
+
+#service-part .title h1 {
+    font-family: 'Epilogue';
+    font-weight: 800;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #391400;
+}
+
+#service-part .service-details {
+    margin-top: 50px;
+}
+
+#service-part .service-details .left {
+    padding: 50px;
+    border: 1px solid #F3D1BF;
+    box-sizing: border-box;
+    border-radius: 6px 0px 0px 6px;
+    border-right: 0;
+}
+
+#service-part .service-details .left .service-title .icon {
+    width: 80px;
+    height: 80px;
+    background: #EF6C57;
+    border-radius: 50%;
+    position: relative;
+}
+
+#service-part .service-details .left .service-title .icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#service-part .service-details .left .service-title h5 {
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 24px;
+    color: #391400;
+    padding-left: 30px;
+    margin-top: 25px;
+}
+
+#service-part .service-details .left p {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(57, 20, 0, 0.64);
+    margin: 30px 0;
+    line-height: 32px;
+}
+
+#service-part .service-details .left .button .icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #ffffff;
+    text-align: center;
+    filter: drop-shadow(0 0 0.50rem rgba(0, 0, 0, 0.192));
+}
+
+#service-part .service-details .left .button .icon i {
+    font-size: 24px;
+    color: #EF6C57;
+    text-align: center;
+    line-height: 48px;
+}
+
+#service-part .service-details .left .button h6 {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    color: #391400;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+#service-part .service-details .right {
+    padding: 50px;
+    border: 1px solid #F3D1BF;
+    box-sizing: border-box;
+    border-radius: 0px 6px 6px 0px;
+}
+
+#service-part .service-details .right .service-title .icon {
+    width: 80px;
+    height: 80px;
+    background: #EF6C57;
+    border-radius: 50%;
+    position: relative;
+}
+
+#service-part .service-details .right .service-title .icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#service-part .service-details .right .service-title h5 {
+    font-family: 'Epilogue';
+    font-weight: 700;
+    font-size: 24px;
+    color: #391400;
+    padding-left: 30px;
+    margin-top: 25px;
+}
+
+#service-part .service-details .right p {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(57, 20, 0, 0.64);
+    margin: 30px 0;
+    line-height: 32px;
+}
+
+#service-part .service-details .right .button .icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #ffffff;
+    text-align: center;
+    filter: drop-shadow(0 0 0.50rem rgba(0, 0, 0, 0.192));
+}
+
+#service-part .service-details .right .button .icon i {
+    font-size: 24px;
+    color: #EF6C57;
+    text-align: center;
+    line-height: 48px;
+}
+
+#service-part .service-details .right .button h6 {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    color: #391400;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+#service-part .bottom {
+    margin-top: 50px;
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(57, 20, 0, 0.64);
+}
+
+#service-part .bottom a {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    color: #391400;
+    margin-left: 5px;
+}
+
+/* ====|service part end|==== */
+
+
+
+
+/* ====|portfolio part strat|==== */
+#portfolio-part {
+    background: #28293E;
+    padding: 100px 0;
+}
+
+#portfolio-part .title p {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-bottom: 30px;
+}
+
+#portfolio-part .title h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+}
+
+#portfolio-part .title a {
+    padding: 20px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.295743);
+    border-radius: 6px;
+    font-family: 'Epilogue';
+    font-weight: 900;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 50px;
+    transition: .4s;
+}
+
+#portfolio-part .title a:hover {
+    color: #28293E;
+    background: #ffffff;
+}
+
+
+#portfolio-part .portfolio-list {
+    margin-top: 50px;
+}
+
+#portfolio-part .portfolio-list .item {
+    border: 1px solid rgba(229, 229, 229, 0.233);
+    ;
+    padding: 30px;
+}
+
+#portfolio-part .portfolio-list .item .img {
+    position: relative;
+}
+
+#portfolio-part .portfolio-list .item .img .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+}
+
+#portfolio-part .portfolio-list .item .img .overlay h4 {
+    padding: 10px 20px;
+    background: #ffffff;
+    border-radius: 20px;
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    color: #391400;
+}
+
+#portfolio-part .portfolio-list .item .img .overlay h3 {
+    font-family: 'Epilogue';
+    font-weight: 800;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+/* ====|portfolio part end|==== */
+
+
+
+/* ====|about part start|==== */
+#about-part {
+    background: #FDF0E9;
+    padding: 100px 0;
+}
+
+#about-part .right {
+    margin-left: 160px;
+}
+
+#about-part .right p {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-top: 80px;
+}
+
+#about-part .right h1 {
+    font-family: 'Epilogue';
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #391400;
+}
+
+#about-part .right h4 {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #391400;
+    margin: 30px 0;
+}
+
+#about-part .right h5 {
+    font-family: 'Epilogue';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+}
+
+#about-part .right .button a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #391400;
+    padding: 20px 30px;
+    background: #ffffff;
+    border-radius: 6px;
+    margin-top: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: .4s;
+}
+
+#about-part .right .button a:hover {
+    color: #ffffff;
+    background: #391400;
+}
+
+#about-part .counter {
+    margin-top: 200px;
+}
+
+#about-part .counter .item {
+    padding: 30px;
+    border: 1px solid #F3D1BF;
+    border-radius: 6px 0px 0px 6px;
+}
+
+#about-part .counter .item .icon {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    background: #EF6C57;
+    position: relative;
+}
+
+#about-part .counter .item .icon i {
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#about-part .counter .item .details {
+    margin-left: 30px;
+}
+
+#about-part .counter .item .details h3 {
+    font-family: 'Epilogue';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #391400;
+    margin-top: 15px;
+}
+
+#about-part .counter .item .details h5 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #391400;
+}
+
+#about-part .counter .project {
+    border-radius: 0px 6px 6px 0px !important;
+    margin-left: -1px;
+}
+
+/* ====|about part end|==== */
+
+
+
+/* ====|feature part strat|==== */
+#feature-part {
+    background: #28293E;
+    padding: 100px 0;
+}
+
+#feature-part .left p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-top: 60px;
+}
+
+#feature-part .left h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin: 30px 0;
+}
+
+#feature-part .left h5 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+#feature-part .left .list {
+    margin-bottom: 15px;
+}
+
+#feature-part .left .list i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    background: #EF6D58;
+    color: #fff;
+    font-size: 20px;
+}
+
+#feature-part .left .list h6 {
+    margin-left: 20px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+    margin-top: 5px;
+}
+
+/* ====|feature part end|==== */
+
+
+
+/* ====|started part strat|==== */
+#started-part {
+    background: #F9E5DA;
+    padding: 50px;
+    position: relative;
+}
+
+#started-part .star {
+    position: absolute;
+    top: -22%;
+}
+
+#started-part p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-top: 50px;
+}
+
+#started-part h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+    margin-bottom: 30px;
+}
+
+#started-part .button a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 20px 30px;
+    background: #EF6D58;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+#started-part .button a:hover {
+    color: #EF6D58;
+    background: #FFFFFF;
+}
+
+#started-part h5 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+/* ====|started part end|==== */
+
+
+
+/* ====|testi part strat|==== */
+#testi-part {
+    background: #FDF0E9;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+#testi-part .title p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-bottom: 20px;
+}
+
+#testi-part .title h1 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #391400;
+}
+
+#testi-part .item-list {
+    margin-top: 100px;
+}
+
+#testi-part .item-list .item {
+    padding: 30px 50px;
+    border: 1px solid #F3D1BF;
+    box-sizing: border-box;
+    transition: .4s;
+}
+
+#testi-part .item-list .item:hover {
+    background: #ffff;
+}
+
+#testi-part .item-list .item2 {
+    margin-left: -1px;
+}
+
+#testi-part .item-list .item3 {
+    margin-left: -1px;
+}
+
+#testi-part .item-list .item .rating i {
+    color: #F6D021;
+    margin-right: 5px;
+
+}
+
+#testi-part .item-list .item h5 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    margin: 40px 0;
+    margin-bottom: 80px;
+}
+
+#testi-part .item-list .item .client .info {
+    margin-left: 30px;
+}
+
+#testi-part .item-list .item .client .info h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+}
+
+#testi-part .item-list .item .client .info h6 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #391400;
+}
+
+#testi-part .button {
+    margin-top: 50px;
+}
+
+#testi-part .button a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #391400;
+    padding: 20px 40px;
+    background: #ffff;
+    border-radius: 6px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: .4s;
+}
+
+#testi-part .button a:hover {
+    background: #391400;
+    color: #ffffff;
+}
+
+/* ====|testi part end|==== */
+
+
+
+/* ====|faq part start|==== */
+#faq-part {
+    background: #28293E;
+    padding: 100px 0;
+}
+
+#faq-part h5 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-bottom: 30px;
+}
+
+#faq-part h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    padding-right: 60px;
+}
+
+#faq-part p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+    padding-right: 60px;
+    margin-bottom: 40px;
+}
+
+#faq-part .button a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+#faq-part .accordion-item .accordion-button {
+    background: #ffff;
+    padding: 20px 40px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+}
+
+#faq-part .accordion-item .collapsed {
+    background: #28293E;
+    color: #ffff;
+}
+
+#faq-part .accordion-item .accordion-body {
+    padding: 20px 40px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+}
+
+#faq-part .icon {
+    margin-top: 150px;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+
+/* ====|faq part end|==== */
+
+
+
+/* ====|blog part start|==== */
+#blog-part {
+    background: #FDF0E9;
+    padding: 100px 0;
+}
+
+#blog-part .title h5 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-bottom: 30px;
+}
+
+#blog-part .title h2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #391400;
+}
+
+#blog-part .button {
+    margin-top: 120px;
+}
+
+#blog-part .button a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #391400;
+    padding: 20px 30px;
+    background: #ffff;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+#blog-part .button a:hover {
+    background: #391400;
+    color: #fff;
+}
+
+#blog-part .blog-liist {
+    margin-top: 100px;
+
+}
+
+#blog-part .blog-liist .left h5 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #391400;
+    margin: 30px 0;
+}
+
+#blog-part .blog-liist .left h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #391400;
+}
+
+#blog-part .blog-liist .left p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    margin-top: 20px;
+}
+
+#blog-part .blog-liist .right .item h5 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #391400;
+    margin-top: 20px;
+}
+
+#blog-part .blog-liist .right .item h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+}
+
+#blog-part .blog-liist .right .item p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+}
+
+#blog-part .blog-liist .right .item {
+    margin-bottom: 50px;
+}
+
+/* ====|blog part end|==== */
+
+
+
+/* ====|contact part start|==== */
+#contact-part {
+    background: #28293E;
+    padding: 100px 0;
+
+}
+
+#contact-part .form {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 6px;
+}
+
+#contact-part .form h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #391400;
+    margin-bottom: 30px;
+}
+
+#contact-part .form .form-control,
+.form-select {
+    border: 1px solid #F3D1BF !important;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+
+
+}
+
+#contact-part .form .button {
+    text-align: right;
+}
+
+#contact-part .form .button a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    background: #EF6D58;
+    border-radius: 6px;
+    margin-top: 20px;
+
+}
+
+#contact-part .form .form-control:focus {
+    box-shadow: none;
+
+}
+
+#contact-part .contact-details h6 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-bottom: 30px;
+}
+
+#contact-part .contact-details h2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+#contact-part .contact-details .para {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+    margin-bottom: 30px;
+}
+
+#contact-part .contact-details .info .item {
+    margin-bottom: 10px;
+}
+
+#contact-part .contact-details .info .item i {
+    font-size: 20px;
+    width: 48px;
+    height: 48px;
+    background: #EF6D58;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 48px;
+}
+
+#contact-part .contact-details .info .item p {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+
+/* ====|contact part end|==== */
+
+
+
+/* ====|me part strat|==== */
+#me-part {
+    background: #FDF0E9;
+    padding: 100px 0;
+}
+
+#me-part h6 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+#me-part h2 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    color: #391400;
+}
+
+#me-part p {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(57, 20, 0, 0.64);
+    margin: 40px 0;
+}
+
+#me-part .button a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    background: #EF6D58;
+    border-radius: 6px;
+    transition: .4s;
+}
+
+#me-part .button a:hover {
+    color: #EF6D58;
+    background: #fff;
+}
+
+/* ====|me part end|==== */
+
+
+
+
+/* ====|footerimg part strat|==== */
+#footer-img .img {
+    display: flex;
+}
+
+/* ====|footerimg part end|==== */
+
+
+
+/* ====|footer part start|==== */
+footer {
+    background: #28293E;
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+footer h3 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+footer h4 {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #EF6D58;
+    margin-bottom: 25px;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    margin-bottom: 15px;
+}
+
+footer ul li a {
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #FFFFFF;
+    transition: .4s;
+}
+footer ul li a:hover{
+    color: rgb(194, 194, 194);
+}
+footer .icon {
+    text-align: right;
+}
+
+footer .icon i {
+    Width: 48px;
+    Height: 48px;
+    border-radius: 50%;
+    background: #EF6D58;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 48px;
+    margin-left: 10px;
+    transition: .4s;
+}
+footer .icon i:hover{
+    color: #EF6D58;
+    background: #fff;
+}
+footer .line{
+    width: 100%;
+    height: 1px;
+    background: #3A3C56;
+    margin: 50px 0;
+
+}
+footer .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+footer .bottom .left p{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+}
+footer .bottom .right{
+    display: flex;
+}
+footer .bottom .right a{
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-left: 50px;   
+    transition: .4s;
+}
+footer .bottom .right a:hover{
+    color: rgb(194, 194, 194);
+}
+/* ====|footer part end|==== */
